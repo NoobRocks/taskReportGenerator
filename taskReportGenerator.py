@@ -160,11 +160,11 @@ def main():
             config = json.load(configFile)
         except:
             pass
+        configFile.close()
         requiredKeySet = {'SVN_ACCOUNT', 'REPORT_INFO', 'TIME_DELTA', 'FROM_DATE', 'TO_DATE', 'OUTPUT_PATH'}
         if config is None or not set(config.keys()).issuperset(requiredKeySet):
             print 'could not generate report with %s' % (configFileName,)
             continue
-        configFile.close()
         SVNAccount = config['SVN_ACCOUNT']
         reportInfo = config['REPORT_INFO']
         
