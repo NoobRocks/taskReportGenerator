@@ -1,0 +1,17 @@
+{
+    "FROM_DATE": "2014-1-1",
+    "TO_DATE": "2015-1-1",
+    "TIME_DELTA": "14",
+    "SVN_ACCOUNT": {
+        "URLS": [
+                 "svn://192.168.0.1/project"
+                 ],
+        "USER": "NoobRocks",
+        "PASSWORD": "NoobRocks"
+    },
+    "REPORT_INFO": {
+        "TEMPLATE_PATH": "RDReportAtom.docx",
+        "AUTHOR": "NoobRocks"
+    },
+    "OUTPUT_PATH": "RD工作日誌_NoobRocks"
+}
