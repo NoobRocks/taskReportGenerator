@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# toDate is exculsive!
+# toDate is exclusive!
 
 import datetime
 import shlex
